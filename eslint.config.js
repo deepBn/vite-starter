@@ -31,7 +31,7 @@ export default tseslint.config(
       react,
       prettier: prettierPlugin,
     },
-    settings: { react: { version: '18.3' } },
+    settings: { react: { version: 'detect' } },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
